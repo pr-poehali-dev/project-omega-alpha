@@ -10,6 +10,9 @@ export default function Footer() {
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Услуги</h3>
+                {["Маникюр", "Педикюр", "Массаж тела", "Массаж лица", "Эстетическая косметология", "Оформление бровей", "Визаж"].map((s) => (
+                  <a key={s} href="#services" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base">{s}</a>
+                ))}
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>

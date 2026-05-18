@@ -11,6 +11,16 @@ const credentials = [
   },
 ];
 
+const services = [
+  "💅 Маникюр",
+  "🦶 Педикюр",
+  "🤲 Массаж тела",
+  "✨ Массаж лица",
+  "🌿 Эстетическая косметология",
+  "👁️ Оформление бровей",
+  "💄 Визаж",
+];
+
 export default function Featured() {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white">
@@ -36,6 +46,14 @@ export default function Featured() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="mb-8">
+          <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Мои услуги</h3>
+          <div className="grid grid-cols-2 gap-2">
+            {services.map((s) => (
+              <span key={s} className="text-sm text-neutral-700">{s}</span>
+            ))}
+          </div>
         </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
           Записаться онлайн
