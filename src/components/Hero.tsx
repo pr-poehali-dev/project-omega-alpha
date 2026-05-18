@@ -21,7 +21,7 @@ export default function Hero() {
       >
         <img
           src="/images/mountain-landscape.jpg"
-          alt="Фон салона красоты"
+          alt="Фон"
           className="w-full h-full object-cover"
           style={{ filter: "brightness(0.45)" }}
         />
@@ -38,14 +38,14 @@ export default function Hero() {
           <div className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl">
             <img
               src="https://cdn.poehali.dev/files/b1b2150b-5373-4bc3-a75c-a27ec1da1154.jpg"
-              alt="Мастер салона красоты"
+              alt="Мастер"
               className="w-full h-full object-cover object-top"
             />
           </div>
         </motion.div>
 
         <div className="text-center lg:text-left text-white">
-          <p className="text-sm md:text-base uppercase tracking-widest mb-3 opacity-70">Салон красоты</p>
+          <p className="text-sm md:text-base uppercase tracking-widest mb-3 opacity-70">Мастер индустрии красоты</p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
             КРАСОТА
           </h1>
