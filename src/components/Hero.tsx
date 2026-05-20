@@ -37,7 +37,7 @@ export default function Hero() {
         >
           <div className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl">
             <img
-              src="https://cdn.poehali.dev/files/b1b2150b-5373-4bc3-a75c-a27ec1da1154.jpg"
+              src="https://cdn.poehali.dev/projects/5cf78603-bd8c-4dbb-a590-ef796f6c2cd4/bucket/d1b6bf3b-23d3-4a42-a9fb-ea39a4e35d4a.jpg"
               alt="Мастер"
               className="w-full h-full object-cover object-top"
             />
