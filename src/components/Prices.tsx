@@ -1,7 +1,7 @@
 const prices = [
   { name: "Маникюр", price: "от 900 ₽", emoji: "💅" },
-  { name: "Педикюр", price: "2 200 ₽", emoji: "🦶" },
-  { name: "Брови", price: "1 200 ₽", emoji: "✨" },
+  { name: "Педикюр", price: "от 2 200 ₽", emoji: "🦶" },
+  { name: "Брови", price: "от 1 200 ₽", emoji: "✨" },
   { name: "Визаж", price: "от 2 500 ₽", emoji: "💄" },
   { name: "Эстетическая косметология", price: "от 1 500 ₽", emoji: "🌿" },
   { name: "Массаж лица", price: "от 1 000 ₽", emoji: "🤲" },
