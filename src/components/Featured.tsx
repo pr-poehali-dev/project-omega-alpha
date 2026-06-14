@@ -2,6 +2,7 @@ const credentials = [
   {
     icon: "🎓",
     title: "Среднее профессиональное образование",
+    subtitle: "ЯКУиПТ — Ярославский колледж управления и профессиональных технологий",
     desc: "Технология индустрии красоты (эстетическая косметология)",
   },
   {
@@ -42,6 +43,7 @@ export default function Featured() {
               <span className="text-2xl">{c.icon}</span>
               <div>
                 <p className="font-semibold text-neutral-900">{c.title}</p>
+                {c.subtitle && <p className="text-sm text-neutral-700 font-medium">{c.subtitle}</p>}
                 <p className="text-sm text-neutral-500">{c.desc}</p>
               </div>
             </div>
